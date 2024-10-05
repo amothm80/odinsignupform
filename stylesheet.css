@@ -103,8 +103,12 @@ body {
 .data-row-field input{
   width: 230px;
   height: 20px;
-  border: 1px solid #d6d9dc;
+  border: 1px solid #E5E7EB;
   border-radius: 3px;
+}
+
+.data-row-field input:invalid{
+  border-color:  #ae3029;
 }
 
 .data-row-field label{
@@ -125,7 +129,7 @@ body {
 }
 
 button{
-  background-color: rgb(48, 84, 48);
+  background-color: #596D48;
   height: 30px;;
   width: 160px;
   border-radius: 5px;
